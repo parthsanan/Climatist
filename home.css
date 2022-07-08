@@ -137,6 +137,7 @@ section.content{
 }
 
 section.content .head{
+    padding-top: 3%;
     padding-left: 9.5%;
     width: 69%;
 }
@@ -172,7 +173,12 @@ section.data{
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 6%;
+    padding-left: 7.82%;
     justify-content: space-evenly;
+}
+
+section.data .data1{
+    flex-basis: 25%;    
 }
 
 section.data h1{
