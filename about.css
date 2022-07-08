@@ -140,6 +140,7 @@ nav .menu-items li .active{
     font-family: "Patua One";
     font-size: 45px;
     letter-spacing: 4px;
+    padding-top: 8%;
 }
 
 .content .writingh p{
@@ -246,5 +247,6 @@ nav .menu-items li .active{
     color:grey;
     margin-bottom:0;
 }
+
 
   
