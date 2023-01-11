@@ -6,10 +6,10 @@ toggleButton.addEventListener("click", () => {
   navbarlinks.classList.toggle("active");
 });
 
-// const isMobile = window.matchMedia(
-//   "only screen and (max-width: 768px)"
-// ).matches;
+const isMobile = window.matchMedia(
+   "only screen and (max-width: 768px)"
+).matches;
 
-// if (isMobile) {
-//   window.location.href = "./mobile/";
-// }
+if (isMobile) {
+  window.location.href = "./mobile/";
+}
