@@ -38,41 +38,9 @@
     <link type="text/css" href="./jqvmap.min.css" rel="stylesheet" />
     <link type="text/css" href="./leaf.css" rel="stylesheet" />
     <script async="" src="./gtm.js"></script>
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          "gtm.start": new Date().getTime(),
-          event: "gtm.js",
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-THQTXJ7");
-    </script>
     <script async="" src="./js"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-141734189-6");
-    </script>
   </head>
   <body>
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-THQTXJ7"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
     <header class="header-global">
       <nav
         id="navbar-main"
@@ -84,9 +52,9 @@
             href="https://climatist.in/"
             ><img
               class="navbar-brand-dark"
-              src="./icon-dark.jpg"
+              src="./navbar-logo-light.svg"
               alt="Logo light" />
-            <img class="navbar-brand-light" src="./icon.jpg" alt="Logo dark"
+            <img class="navbar-brand-light" src="./navbar-logo.svg" alt="Logo dark"
           /></a>
           <div class="navbar-collapse collapse" id="navbar_global">
             <div class="navbar-collapse-header">
@@ -177,13 +145,12 @@
               </h1> 
               <p class="lead text-muted mt-4">
                 Climatist is an initiative that aims to form a community of like-minded climate activists who want to contribute to saving our planet, while we afford the luxury to do so. <br class="d-none d-lg-inline"/>
-                <br   >We are on a relentless march to awaken and kickstart the momentum to tackle the problem of climate change which we face, locally and globally.
+                <br>We are on a relentless march to awaken and kickstart the momentum to tackle the problem of climate change which we face, locally and globally.
               </p>              
             </div>
             <div class="col-4 col-md-5 col-lg-6 order-lg-2">
-              <a style="color: #f3f7fa;"href="https://www.vecteezy.com/free-vector/climate-change">Climate Change Vectors by Vecteezy</a>
               <img
-                src="./vect_earth.png"
+                src="./forest.svg"
                 class="img-fluid mb-lg-6 mb-0"
                 alt="Earth Illustration"
               />
@@ -200,9 +167,10 @@
                   <div class="card-body text-center">
                     <h6 class="font-weight-bold mb-2">Rise in CO₂ Emissions</h6>
                     <h2 class="text-gray mb-0">
-                      <span class="icon-danger mr-2"
-                        ><i class="fas fa-long-arrow-alt-up"></i></span
-                      ><span class="counter display-3 mr-2">90</span>%
+                      <span class="mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="height: 40px;width: 40px;margin-top: -6px;" viewBox="0 0 24 24"><title>arrow-down-thin</title><path d="M7.03 13.92H11.03V5L13.04 4.97V13.92H17.03L12.03 18.92Z" /></svg>
+                        </span>
+                        <span class="counter display-3 mr-2">90</span>%
                     </h2>
                     <span class="text-center text-muted mb-0"
                       >since 1970</span
@@ -214,7 +182,7 @@
                     <h6 class="font-weight-bold mb-2">Rise in Global Temperature</h6>
                     <h2 class="text-gray mb-0">
                       <span class="icon-danger mr-2"
-                        ><i class="fas fa-long-arrow-alt-up"></i></span
+                        ><svg xmlns="http://www.w3.org/2000/svg" style="height: 40px;width: 40px;margin-top: -6px;" viewBox="0 0 24 24"><title>arrow-down-thin</title><path d="M7.03 13.92H11.03V5L13.04 4.97V13.92H17.03L12.03 18.92Z" /></svg></span
                       ><span class="counter display-3 mr-2">0.84</span>°F
                     </h2>
                     <span class="text-center text-muted mb-0">since 1880</span>
@@ -224,10 +192,11 @@
                   <div class="card-body text-center">
                     <h6 class="font-weight-bold mb-2">Hottest Year on Record</h6>
                     <h2 class="text-gray mb-0">
-                      <span class="icon-danger mr-2"
-                        ><i class="fas fa-long-arrow-alt-down"></i></span
-                      ><span class="counter display-3 mr-2">2016
+                      <span class="counter display-3 mr-2">2016
                     </h2> 
+                    <span class="text-center text-muted mb-0"
+                      >lifetime</span
+                    >
                   </div>
                 </div>
                 <div class="card border-left-md border-soft">
@@ -235,7 +204,7 @@
                     <h6 class="font-weight-bold mb-2">Rise in Sea Level</h6>
                     <h2 class="text-gray mb-0">
                       <span class="icon-danger mr-2"
-                        ><i class="fas fa-long-arrow-alt-up"></i></span
+                        ><svg xmlns="http://www.w3.org/2000/svg" style="height: 40px;width: 40px;margin-top: -6px;" viewBox="0 0 24 24"><title>arrow-down-thin</title><path d="M7.03 13.92H11.03V5L13.04 4.97V13.92H17.03L12.03 18.92Z" /></svg></span
                       ><span class="counter display-3 mr-2">3.6</span>
                     </h2>
                     <span class="text-center text-muted mb-0"
@@ -292,7 +261,7 @@
           <div class="row mt-n9">
             <div class="col-12 col-lg-4 mb-5">
               <a
-                class="card animate-up-3 shadow-sm border-soft"
+                class="card animate-up-3 shadow-sm border-success"
                 href="https://climatist.in/stats.html"
                 ><div class="px-5 pt-4 pb-5">
                   <span class="badge badge-secondary badge-pill mb-2"
@@ -313,7 +282,7 @@
             </div>
             <div class="col-12 col-lg-4 mb-5">
               <a
-                class="card animate-up-3 shadow-sm border-soft"
+                class="card animate-up-3 shadow-sm border-danger"
                 href="https://climatist.in/articles.html"
                 ><div class="px-5 pt-4 pb-5">
                   <span class="badge badge-primary badge-pill mb-2"
@@ -334,7 +303,7 @@
             </div>
             <div class="col-12 col-lg-4 mb-5">
               <a
-                class="card animate-up-3 shadow-sm border-soft"
+                class="card animate-up-3 shadow-sm border-info h-100"
                 href="https://climatist.in/help-out.html"
                 ><div class="px-5 pt-4 pb-5">
                   <span class="badge badge-tertiary badge-pill mb-2"
@@ -434,62 +403,5 @@
     <script src="./jquery.vmap.min.js"></script>
     <script src="./jquery.vmap.world.js"></script>
     <script src="./leaf.js"></script>
-    <script>
-      (function () {
-        var js =
-          "window['__CF$cv$params']={r:'785eb5a14d5691a2',m:'t9cxCgIUmqX0BhzTLBpBhQGnjKgjWkcq11sNSpR9iqU-1673115648-0-Ad0YDBq8aoCVOKJcrcz/7gWbZ9MDtlqXB6Mii05aZkntoB8fDR8Z6YahxUHMkBJ4/RF0dWwrEUL66m0N4l12rNBCE+3oO+mLHBCHvT9dmvqyjWVetsyWol+vb1cgfncnCw==',s:[0xc80393de27,0x82fcc5d6e7],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";
-        var _0xh = document.createElement("iframe");
-        _0xh.height = 1;
-        _0xh.width = 1;
-        _0xh.style.position = "absolute";
-        _0xh.style.top = 0;
-        _0xh.style.left = 0;
-        _0xh.style.border = "none";
-        _0xh.style.visibility = "hidden";
-        document.body.appendChild(_0xh);
-        function handler() {
-          var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
-          if (_0xi) {
-            var _0xj = _0xi.createElement("script");
-            _0xj.nonce = "";
-            _0xj.innerHTML = js;
-            _0xi.getElementsByTagName("head")[0].appendChild(_0xj);
-          }
-        }
-        if (document.readyState !== "loading") {
-          handler();
-        } else if (window.addEventListener) {
-          document.addEventListener("DOMContentLoaded", handler);
-        } else {
-          var prev = document.onreadystatechange || function () {};
-          document.onreadystatechange = function (e) {
-            prev(e);
-            if (document.readyState !== "loading") {
-              document.onreadystatechange = prev;
-              handler();
-            }
-          };
-        }
-      })();
-    </script>
-    <iframe
-      height="1"
-      width="1"
-      style="
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        border: none;
-        visibility: hidden;
-      "
-      src="./saved_resource.html"
-    ></iframe>
-    <script
-      defer=""
-      src="./vaafb692b2aea4879b33c060e79fe94621666317369993"
-      integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
-      data-cf-beacon='{"rayId":"785eb5a14d5691a2","version":"2022.11.3","r":1,"token":"3a2c60bab7654724a0f7e5946db4ea5a","si":100}'
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

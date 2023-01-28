@@ -7,9 +7,9 @@ toggleButton.addEventListener("click", () => {
 });
 
 const isMobile = window.matchMedia(
-   "only screen and (max-width: 768px)"
+  "only screen and (max-width: 768px)"
 ).matches;
 
-if (isMobile) {
-   window.location.href = "./mobile/";
+if (isMobile && window.location.pathname == "/") {
+  window.location.href = "./mobile/";
 }
